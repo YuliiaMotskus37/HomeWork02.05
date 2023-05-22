@@ -1,0 +1,12 @@
+public class HomeWork02_05 {
+    public static void main(String[] args) {
+        //Создать две переменных isWeekend и isRain.
+
+        boolean isWeekend = true;
+        boolean isRain = false;
+        //Создать переменную canWalk.
+        boolean canWalk = (isWeekend || isRain);
+        System.out.println(canWalk);
+
+    }
+}
